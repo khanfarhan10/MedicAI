@@ -7,6 +7,9 @@ MedicAI is a tool that provides eHealth Services on a Web Portal and helps you g
 - Detailed (Verbose) Analytics Report - Percentage of Suspectance | Clinical Tests Required? Yes: Follow the steps : Nearest Hospital Vacant Access GPS ++ No. Go ahead. Wait for radiologist results???
 - Certified PDF generation - Govt Logos, Percentage of Suspectance , Validity : Green , Unique Identification Number, Barcode
 
+### Generate PDF / Use DOCX
+- https://www.codementor.io/@garethdwyer/create-pdf-files-from-templates-with-python-and-google-scripts-p63kal1vb
+
 #### Generated Certifications
 
 <p align="center">
