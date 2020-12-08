@@ -10,8 +10,15 @@ MedicAI is a tool that provides eHealth Services on a Web Portal and helps you g
 #### Sample Certs
 - http://helppeopletosavepeopletrust.weebly.com/achievement-certificate.html
 
+<p align="center">
+  <img src="govt_cert_1.jpeg">
+</p>
+
+<p align="center">
+  <img src="govt_cert_2.jpeg">
+</p>
+
+<!--
 ![](govt_cert_1.jpeg)
-
 ![](govt_cert_2.jpeg)
-
-
+-->
