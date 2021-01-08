@@ -11,7 +11,10 @@ MedicAI is a tool that provides eHealth Services on a Web Portal and helps you g
 - https://www.codementor.io/@garethdwyer/create-pdf-files-from-templates-with-python-and-google-scripts-p63kal1vb
 
 #### Generated Certifications
-
+- Replace Text & Images
+- Generate QR :
+  - https://medium.com/better-programming/how-to-generate-and-decode-qr-codes-in-python-a933bce56fd0
+  - https://www.geeksforgeeks.org/python-generate-qr-code-using-pyqrcode-module/
 <p align="center">
   <img src="MedicAI Coronavirus Certification.jpg">
 </p>
