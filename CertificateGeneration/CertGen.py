@@ -207,4 +207,6 @@ zip_directory(out_dir, des_file)
 
 
 # TODO save to pdf
+# TODO perform image matching
+# TODO better regex matching
 """
