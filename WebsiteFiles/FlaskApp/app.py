@@ -13,7 +13,7 @@ Instructions For Running :
 MedicAIEnv\Scripts\activate
 To deactivate base - conda.bat deactivate
 cd WebsiteFiles/FlaskApp
-python FlaskApplication.py
+python app.py
 
 
 TODO :
