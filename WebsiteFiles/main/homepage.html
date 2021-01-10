@@ -227,6 +227,7 @@ Buttons
                             class="fa fa-key"></i><span class="text-info">Login</span></button>
                         <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form"
                           aria-hidden="true">
+                          <!--Login Form-->
                           <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
                             <div class="modal-content">
                               <div class="modal-body p-0">
@@ -271,12 +272,16 @@ Buttons
                                           <input class="form-control" placeholder="Password" type="password">
                                         </div>
                                       </div>
+
+                                      <hr>
+                                      
                                       <div class="custom-control custom-control-alternative custom-checkbox">
                                         <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
                                         <label class="custom-control-label" for=" customCheckLogin">
                                           <span>Remember me</span>
                                         </label>
                                       </div>
+                                      
                                       <div class="text-center">
                                         <button type="button" class="btn btn-primary my-4">Sign in</button>
                                       </div>
@@ -286,36 +291,99 @@ Buttons
                               </div>
                             </div>
                           </div>
+                          <!--End Login Form-->
                         </div>
                       </div>
                 
                       <div class="col-md-4">
-                        <button type="button" class="btn btn-block btn-dark mb-3" data-toggle="modal" data-target="#modal-default"><i
+                        <button type="button" class="btn btn-block btn-dark mb-3" data-toggle="modal" data-target="#modal-register"><i
                             class="fa fa-sign-in"></i><span class="text-success">Register</span></button>
-                        <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default"
-                          aria-hidden="true">
-                          <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                        <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="modal-register" aria-hidden="true">
+                          <!--Register Form-->
+                          <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
                             <div class="modal-content">
-                              <div class="modal-header">
-                                <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">×</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
-                                  language ocean.</p>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
-                                  paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                                <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                              <div class="modal-body p-0">
+                                <div class="card bg-secondary shadow border-0 mb-0">
+                                  <div class="card-header bg-white pb-5">
+                                    <div class="text-muted text-center mb-3">
+                                      <small>Sign up with</small>
+                                    </div>
+                                    <div class="btn-wrapper text-center">
+                                      <a href="javascript:;" class="btn btn-neutral btn-icon">
+                                        <span class="btn-inner--icon">
+                                          <img src="./assets/img/icons/common/github.svg">
+                                        </span>
+                                        <span class="btn-inner--text">Github</span>
+                                      </a>
+                                      <a href="javascript:;" class="btn btn-neutral btn-icon">
+                                        <span class="btn-inner--icon">
+                                          <img src="./assets/img/icons/common/google.svg">
+                                          </span>
+                                          <span class="btn-inner--text">Google</span>
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="card-body px-lg-5 py-lg-5">
+                                      <div class="text-center text-muted mb-4">
+                                        <small>Or sign up with credentials</small>
+                                      </div>
+                                      <form role="form">
+                                        <div class="form-group">
+                                          <div class="input-group input-group-alternative mb-3">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                            </div>
+                                            <input class="form-control" placeholder="Name" type="text">
+                                          </div>
+                                        </div>
+                                        <div class="form-group">
+                                          <div class="input-group input-group-alternative mb-3">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                            </div>
+                                            <input class="form-control" placeholder="Email" type="email">
+                                          </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                          <div class="input-group input-group-alternative">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+                                            </div>
+                                            <input class="form-control" placeholder="Password" type="password">
+                                          </div>
+                                        </div>
+
+                                        <div class="text-muted font-italic"><small>password strength: <span
+                                              class="text-success font-weight-700">strong</span></small></div>
+                                        
+                                        <div class="text-muted font-italic"><small>password strength: <span
+                                              class="text-danger font-weight-700">weak</span></small></div>
+                                        
+                                        <hr>
+                                        
+                                        <div class="custom-control custom-control-alternative custom-checkbox">
+                                          <input class="custom-control-input" id=" customCheckLogin2" type="checkbox">
+                                          <label class="custom-control-label" for=" customCheckLogin2">
+                                            <span>I agree with the <a href="#">Privacy Policy</a></span>
+                                          </label>
+                                        </div>
+                                        <!--Fixed - Button Click Doesn't Work-->
+                                        <div class="text-center">
+                                          <button type="button" class="btn btn-primary my-4">Create account</button>
+                                        </div>
+                                      </form>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
+                            <!--End Register Form-->
                           </div>
-                        </div>
+
+
+
+                        
                       </div>
                 
                       <div class="col-md-4">
@@ -340,7 +408,7 @@ Buttons
                                   <p>You will be redirected to the GitHub page in 3 seconds.</p>
                                   <p>If not, <a href="http://">click here!</a></p>
                                 </div>
-                              <!--TODO Implement Redirect after 3 seconds-->>
+                              <!--TODO Implement Redirect after 3 seconds-->
                               </div>
                               <div class="modal-footer">
                                 <button type="button" class="btn btn-white" data-dismiss="modal">OK</button>
@@ -376,7 +444,6 @@ Buttons
                   
                 </div>
 
-                <!--TODO Team MLXTREME logo-->>
               </div>
             </div>
           </div>
