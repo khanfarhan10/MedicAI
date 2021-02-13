@@ -1,6 +1,11 @@
 # MedicAI
 MedicAI is a tool that provides eHealth Services on a Web Portal and helps you get Virtual Clinical Certifications using Artificial Intelligence.
 
+### Optimization
+- Caching & Memoization - https://www.youtube.com/watch?v=iO0sL6Vyfps , https://flask-caching.readthedocs.io/en/latest/
+- API Build - https://www.youtube.com/watch?v=UbCWoMf80PY , https://github.com/krishnaik06/Deployment-flask
+- Extends Base and URL_FOR - https://www.youtube.com/watch?v=_t5GfQyiFm8
+
 ### Ideas
 - [OAuth Login](https://github.com/khanfarhan10/FlaskGoogleOAuth) - EAadhaar, currently Google
 - Dashboard for Various Tests - COVID CXR, CT Scan , One more famous virus spread from china itself ++
